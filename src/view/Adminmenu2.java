@@ -25,7 +25,7 @@ public class Adminmenu2 extends JFrame {
         this.setLayout(new BorderLayout());
         this.setLocationRelativeTo(null);
 
-        Object[] columnNames = { "Location", "Seating Capacity"};
+        Object[] columnNames = { "ID", "Location", "Seating Capacity"};
         model = new DefaultTableModel(columnNames, 0);
         table = new JTable(model);
 
